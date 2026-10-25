@@ -30,6 +30,8 @@ Calculator/
 ├── subtraction.cpp
 ├── multiplication.cpp
 ├── division.cpp
+├── power.cpp
+├── square_root.cpp
 └── modulo.cpp
 ```
 
@@ -49,7 +51,7 @@ Calculator/
 
 ```text
 main()
-  │
+  |
   ├── while(true)
   │
   ├── operation input

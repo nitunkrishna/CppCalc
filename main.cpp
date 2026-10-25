@@ -8,7 +8,7 @@ int main()
     while(true)
     {
         cout << "Enter 'e' to exit." << endl;
-        cout << "Enter your operation (+, -, *, /, %): ";
+        cout << "Enter your operation (+, -, *, /, %, ^): ";
         cin >> ch;
         if(ch=='e')
         {
@@ -37,6 +37,14 @@ int main()
             case '%':
                 modulo();
                 break;
+
+            case '^':
+                power();
+                break;
+
+            // case 's':
+                // squareRoot();
+            //     break;
 
             default:
                 cout << "Enter a valid input (+, -, *, /, %)" << endl;
