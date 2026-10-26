@@ -45,6 +45,7 @@ Calculator/
 | `subtraction.cpp` | Implements subtraction |
 | `multiplication.cpp` | Implements multiplication |
 | `division.cpp` | Implements division and division-by-zero handling |
+| `power.cpp` | Implements power operations |
 | `modulo.cpp` | Implements remainder calculation using `fmod()` |
 
 ## Program Flow
